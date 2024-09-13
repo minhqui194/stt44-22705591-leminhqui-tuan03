@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sky World Tours</title>
+    <style>
+.bodyy{
+    width: 100%;
+    height: 100%;
+}        
+        body {
+ font-family: Arial, sans-serif;
+background-color: lightblue;
+}
+
+header h1 {
+    text-align: right;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px rgba(11, 6, 22, 0.5);
+    color: beige;
+}
+header{
+    width: 100%;
+    height: 40px;
+    border-bottom: 5px dotted rgb(245, 242, 242);
+   
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    color: azure;
+   
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+ 
+}
+nav li a{
+    color: azure;
+    text-decoration: none
+    
+}
+main{
+    width: 40%;
+    float: left;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+}
+h2, p{
+    color: azure;
+    padding-left: 20px;
+}
+
+.container p{
+    color: blue;
+ font-size: 18px;
+    position: absolute;
+    right: 90px;
+    top: 75%;
+   
+  text-align: center;
+  
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.subtext {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.container img{
+   
+    width: 40%;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 15%;
+}
+form{
+   position: absolute;
+   top: 18%;        
+   width: 30%;   
+   left: 120px;      
+        }
+        #list{
+            color:white
+        }
+        #box{
+            border-color: rgb(28, 28, 174);
+        }
+        form select {
+        padding:5px;
+        width:60px;
+        height: 30px;
+        border: 2px solid blue;
+        border-radius: 8px;
+        }
+        form input {
+        width: 90%;
+        padding: 5px;
+       
+        border: 2px solid blue;
+        border-radius: 8px;
+        }
+        form textarea {
+        width: 90%;
+        padding: 10px;
+        border: 2px solid blue;
+        border-radius: 8px;
+        }
+        form input[type="submit"],
+        form input[type="reset"] {
+        padding: 10px 10px;
+        width: 80px;
+        height: 40px;
+        background-color: #b7bcc0;
+        color: white;
+        border: 2px dashed blue;
+        border-radius: 5px;
+        
+        }
+        
+footer {
+    width: 100%;
+    border-top: 5px dotted rgb(245, 242, 242);
+    position: absolute;
+    top: 90%;
+    left: 5px;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <div class="bodyy">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Sky World</h1>
+        </header>
+    
+        <main>
+            <h2>Registration information</h2>
+            <p>Start your travel planning right now with our on-line tour registration form. Just tell us a little about yourself and your group and one of our travel experts will contact you to create the perfect tour package custom built for your group's needs.</p>
+            
+        </main>
+        <div class="container">
+            <img src="/IMG/sky.png" alt="sky">
+          <p> You've arrived <br>
+            Journeys as great as the destinations.</p> 
+        </div>
+        <form>  
+                <table>
+                    <tr >
+                        <td id="list"> Title</td>
+                        <td id="box"><select name="Title" id="title" width="30px"> 
+                            <option value="1"> Mr</option>
+                            <option value="1"> Ms</option> </select></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td id="list">Full Name</td>
+                        <td id="box"><input size="40"type="text" id=""placeholder="First Name" > </td>
+                    </tr>
+                        <br>
+                    <tr>
+                        <td id="list">Mailing Address</td>
+                        <td id="box"><input size="40"type="text" id=""placeholder="Mailing Address" ></td>
+                    </tr>
+                        <br>
+                    <tr>
+                        <td id="list">City</td>
+                        <td id="box"><input size="40"type="text"id=""placeholder="City"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <td id="list">Country</td>
+                        <td id="box"><input size="40" type="text" id=""placeholder="Country"></td>
+                    </tr>
+                        <br>
+                    <tr>
+                        <td id="list"valign="top"> Specific questions or requests about your tour</td>
+                        <td id="box"><textarea cols="31" rows="5" id=""placeholder="Specific questions or requests about your tour"></textarea></td>
+                    </tr>
+                    <br>
+                
+                <tr>
+                    <td></td>
+                    
+                       <td>
+                            <input type="submit" value="Submit">
+                              <input type="reset" value="Reset"></td>
+
+                    
+                </tr>
+            </table>  
+            </form>
+        <footer>
+            <p>&copy; 2016 Sky World Tours. All rights reserved.</p>
+            <p>Contact information: Student Name | Student ID | Testing date: 16 Sept 2016</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
